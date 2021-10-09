@@ -1,4 +1,21 @@
 @media only screen and (min-width : 901px) {
+  #body {
+      background-image: url("https://image.freepik.com/vector-gratis/fondo-formas-abstractas-verde-acuarela_23-2149080626.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: grid;
+      align-items: center;
+      justify-items: center;
+    }
+p{
+  background: #f8f4e5;
+    padding: 22px 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 8px 10px 1px #7bdaff, 8px 10px 1px 1px black;
+}
 body {
     background-image: url("https://image.freepik.com/vector-gratis/fondo-formas-abstractas-verde-acuarela_23-2149080626.jpg");
     background-repeat: no-repeat;
@@ -66,5 +83,21 @@ body {
   .copyriht{
       background-color:#37e937;
       
+  }
+  #two_columns{
+    border-style: double ;
+    border-radius: 9%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 6%;
+  }
+  #contendor{
+    border-style: initial;
+    width: 60%;
+  }
+  #contenedor2{
+    border-style: initial;
+    
   }
 }
